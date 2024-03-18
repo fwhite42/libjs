@@ -1,6 +1,6 @@
 const {
 	request
-} = require("request");
+} = require("../request/request");
 
 async function prepareCall (signer, api, method, params) {
 	let data;
